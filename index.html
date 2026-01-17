@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to USB Bank</h1>
+        <h1 class="title">Registration Form</h1>
+        <form>
+            <table>
+                <tr class="t_row">
+                    <th class="t_head"><label for="uname">Name</label></th>
+                    <td class="t_content">
+                        <input id="uname" class="input_data" type="text" placeholder="Enter Name here.." />
+                    </td>
+                </tr>
+                <tr class="t_row">
+                    <th class="t_head"><label for="email">Email</label></th>
+                    <td class="t_content">
+                        <input id="email" class="input_data" type="text" placeholder="Enter Mail ID here.." />
+                    </td>
+                </tr>
+                <tr class="t_row">
+                    <th class="t_head"><label for="password">Password</label></th>
+                    <td class="t_content">
+                        <input id="password" class="input_data" type="password" placeholder="Enter Password here.." />
+                    </td>
+                </tr>
+                <tr class="t_row">
+                    <td colspan="2" class="t_content">
+                        <button disabled onclick="validateFields()">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
