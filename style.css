@@ -5,11 +5,7 @@
 }
 .input_data:focus{
     outline: none;
-}
-#email:focus{
-     background-color: transparent;
-}
-    
+}    
 .t_row{
     padding: 20px;
       
@@ -60,5 +56,6 @@ table {
     
 
 }
+
 
 
